@@ -1,6 +1,6 @@
 {
   "name": "cra-template-mui-light",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "This template contains mui, material-table, axios and axios-hooks packages with a pre-created context.",
   "main": "index.js",
   "scripts": {

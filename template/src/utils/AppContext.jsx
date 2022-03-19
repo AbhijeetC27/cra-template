@@ -8,14 +8,13 @@ const AppContext = createContext()
 function AppContextProvider(props) {
     const { axiosConfig } = appSettings
 
-    useEffect(() => {
-        configure({
-            axios: axios.create({
-                ...axiosConfig
-            })
+    // configuring Axios using base settings from utils/appSettings.js
+    configure({
+        axios: axios.create({
+            ...axiosConfig
         })
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    })
+
     return (
         <AppContext.Provider value={{}}>
             {props.children}

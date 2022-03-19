@@ -12,7 +12,8 @@
             "@mui/styles": "^5.4.4",
             "axios": "^0.26.0",
             "axios-hooks": "^3.0.1",
-            "env-cmd": "^10.1.0"
+            "env-cmd": "^10.1.0",
+            "react-string-format": "^1.0.0"
         },
         "scripts": {
             "start": "env-cmd -f ./config/.env.dev react-scripts start",
