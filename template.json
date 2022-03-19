@@ -1,0 +1,39 @@
+{
+    "package": {
+        "dependencies": {
+            "@testing-library/jest-dom": "^5.11.4",
+            "@testing-library/react": "^11.1.0",
+            "@testing-library/user-event": "^12.1.10",
+            "@emotion/react": "^11.8.1",
+            "@emotion/styled": "^11.8.1",
+            "@material-table/core": "^0.2.26",
+            "@mui/icons-material": "^5.4.4",
+            "@mui/material": "^5.4.4",
+            "@mui/styles": "^5.4.4",
+            "axios": "^0.26.0",
+            "axios-hooks": "^3.0.1",
+            "env-cmd": "^10.1.0"
+        },
+        "scripts": {
+            "start": "env-cmd -f ./config/.env.dev react-scripts start",
+            "start-staging": "env-cmd -f ./config/.env.staging react-scripts start",
+            "start-prod": "env-cmd -f ./config/.env.prod react-scripts start",
+            "start-qa": "env-cmd -f ./config/.env.qa react-scripts start",
+            "build": "env-cmd -f ./config/.env.dev react-scripts build",
+            "build-staging": "env-cmd -f ./config/.env.staging react-scripts build",
+            "build-prod": "env-cmd -f ./config/.env.prod react-scripts build",
+            "build-qa": "env-cmd -f ./config/.env.qa react-scripts build",
+            "test": "env-cmd -f ./config/.env.dev react-scripts test",
+            "test-staging": "env-cmd -f ./config/.env.staging react-scripts test",
+            "test-prod": "env-cmd -f ./config/.env.prod react-scripts test",
+            "test-qa": "env-cmd -f ./config/.env.qa react-scripts test",
+            "eject": "react-scripts eject"
+          },
+        "eslintConfig": {
+            "extends": [
+                "react-app",
+                "react-app/jest"
+            ]
+        }
+    }
+}

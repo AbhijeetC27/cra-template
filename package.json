@@ -1,0 +1,12 @@
+{
+  "name": "cra-template-mui-light",
+  "version": "2.0.0",
+  "description": "This template contains mui, material-table, axios and axios-hooks packages with a pre-created context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cra-template", "mui", "material-table", "axios", "axios-hooks", "REACT Context API"],
+  "author": "AC",
+  "license": "ISC"
+}
